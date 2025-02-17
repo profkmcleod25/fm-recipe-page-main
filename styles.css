@@ -164,10 +164,22 @@ h3 {
 
 /* MEDIA QUERIES */
 
-@media screen and (min-width: 1440px) {
-    header {
-        padding: 0 10%;
+@media screen and (min-width: 800px) {
+
+    body {
+        background-color: var(--stone-100);
+        padding: 10%;
     }
+    .wrapper {
+        width: 50%;
+        background-color: white;
+        border-radius: 10px;
+        margin: auto;
+        padding: 5%;
+    }
+    /* header {
+        padding: 0 10%;
+    } */
 
     header img {
         border-radius: 10px;
